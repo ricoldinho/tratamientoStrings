@@ -8,6 +8,8 @@ public class Principal {
         //tipo   ref     objeto
         String nombre = "Álvaro";
 
+        nombre.toUpperCase();
+
         //los métodos se invocan utilizando "." -> SOLO INVOCA UN MÉTODO UNA CLASE O UN OBJETO
         int numero = 10;
         int numero3 = 10;
@@ -22,6 +24,15 @@ public class Principal {
         boolean logico = true;
         double decimal = 10.0;
         char caracter = 'l';
+        String letra = "\"l\"";
+        System.out.println(letra);
+
+        System.out.println(caracter + 1);
+        System.out.println(letra + 1);
+        /*
+        if(caracter == letra){
+            System.out.println("Soy lo mismo");
+        }*/
 
         //Tipo  ref      objeto creado con "new"
         Scanner sc = new Scanner(System.in);
